@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Travio</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="account"><u>Need an Account? Sign up now!</u></string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="department">
+        <item>Student</item>
+        <item>Job</item>
+        <item>Business</item>
+        <item>Nothing</item>
+    </string-array>
+    <string-array name="city">
+        <item>Kolkata</item>
+        <item>Bangalore</item>
+        <item>Pune</item>
+        <item>Delhi</item>
+        <item>Mumbai</item>
+    </string-array>
+    <string-array name="place">
+        <item>Economy Tamil Nadu - Pondicherry and Tirupati</item>
+        <item>Vibrant Goa - Evoke Lifestyle</item>
+        <item>Kerala - Hills and Backwaters</item>
+    </string-array>
+    <string name="copyright">Copyright \u00a9 2018, FIEM</string>
+    <string name="title_activity_admin_home">AdminHomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

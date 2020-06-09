@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "74479245965",
+    "firebase_url": "https://travio-1f56a.firebaseio.com",
+    "project_id": "travio-1f56a",
+    "storage_bucket": "travio-1f56a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74479245965:android:0228486f10c0577c",
+        "android_client_info": {
+          "package_name": "tk.musicoflife.travio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74479245965-qv3pgbau4niuuh6shi5notgv65ost5b5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tk.musicoflife.travio",
+            "certificate_hash": "d3cbf6f084aa49f28bada94834da772280aa148c"
+          }
+        },
+        {
+          "client_id": "74479245965-rulh6ol91i9o0ucc6t36l6o2s2v5ett3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkHF-5RBhAViNJ66IavJalO8hAUKr7N4k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "74479245965-rulh6ol91i9o0ucc6t36l6o2s2v5ett3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoaActivity"
+    android:background="@drawable/back_min"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/goa2"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/amita"
+            android:text="Vibrant Goa - Evoke Lifestyle"
+            android:textAlignment="center"
+            android:textColor="@color/text"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tour Details"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"
+            android:fontFamily="@font/audiowide"
+            android:textColor="@color/brown"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="3 Nights | 4 Days\nGoa(3N)"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorPrimary" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:textColor="@color/brown"
+            android:text="Accommodation:"
+            android:fontFamily="@font/aclonica"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            />
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/goahotel"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="sans-serif"
+            android:text="Goa - Hotel Evoke Lifestye"
+            android:textColor="#e3e3e3"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="sans-serif"
+            android:text="Plot No 252/4 Sequirra Vaddo Candolim,Goa."
+            android:textColor="#888"
+            android:textSize="10sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:textColor="@color/brown"
+            android:text="What tour price includes?"
+            android:fontFamily="@font/aclonica"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="sans-serif"
+            android:text="• Welcome drinks on arrival (Non-Alcoholic)\n• Mini Bar in room on chargeable basis\n• Complimentary use of Tea/Coffee maker in all rooms, replenished once a day. Additional requirement will be at an extra cost\n• Complimentary 02 bottles of mineral water, replenished daily\n• Wi-Fi connectivity on complimentary basis for browsing only\n• All applicable hotel taxes\n• Complimentary use of Swimming Pool (with proper swim wear)"
+            android:textColor="#e3e3e3"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:textColor="@color/brown"
+            android:text="What your tour price does not include?"
+            android:fontFamily="@font/aclonica"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="sans-serif"
+            android:text="• Any monument entrance fees, camera fees, guide charges\n• Any services not mentioned in inclusion list"
+            android:textColor="#e3e3e3"
+            android:textSize="12sp"
+            />
+
+        <Button
+            android:id="@+id/goa_booknow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttons"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Book Now!"
+            android:textAllCaps="false"
+            android:textColor="#e3e3e3"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryy">#3F51B5</color>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#4CAF50</color>
+    <color name="colorPrimaryDarkk">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="orange">#F4511E</color>
+    <color name="grey">#424242</color>
+    <color name="brown">#795548</color>
+    <color name="text">#FFEE58</color>
+    <color name="tours">#546E7A</color>
+</resources>

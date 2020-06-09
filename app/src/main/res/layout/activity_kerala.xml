@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KeralaActivity"
+    android:background="@drawable/back_min"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kerala2"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/amita"
+            android:text="Kerala - Hills and Backwaters"
+            android:textAlignment="center"
+            android:textColor="@color/text"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tour Details"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"
+            android:fontFamily="@font/audiowide"
+            android:textColor="@color/brown"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="3 Nights | 4 Days\nMunnar(2N) --> Alleppey(1N)"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorPrimary" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:textColor="@color/brown"
+            android:text="Accommodation:"
+            android:fontFamily="@font/aclonica"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            />
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/khotel"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="sans-serif"
+            android:text="Munnar - Mountain trail"
+            android:textColor="#e3e3e3"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="sans-serif"
+            android:text="Venadu, Chinnakanal, Munnar."
+            android:textColor="#888"
+            android:textSize="10sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:textColor="@color/brown"
+            android:text="What tour price includes?"
+            android:fontFamily="@font/aclonica"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="sans-serif"
+            android:text="• Accommodation in the mentioned or similar hotels\n• Daily Breakfast (total 3)\n• All transfers and sightseeing by AC Vehicle. (Please note that AC will be switched off during hills )\n• All toll taxes, parking charges, driver allowances.\n• All currently applicable hotel taxes except GST @ Current Rate"
+            android:textColor="#e3e3e3"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:textColor="@color/brown"
+            android:text="What your tour price does not include?"
+            android:fontFamily="@font/aclonica"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="sans-serif"
+            android:text="• Any monument entrance fees, camera fees, guide charges\n• Any services not mentioned in inclusion list\n• Any Air or Rail fare\n• Any other destination not mentioned in itinerary\n• GST will be applicable as per prevailing rates"
+            android:textColor="#e3e3e3"
+            android:textSize="12sp"
+            />
+
+        <Button
+            android:id="@+id/goa_booknow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttons"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Book Now!"
+            android:textAllCaps="false"
+            android:textColor="#e3e3e3"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>

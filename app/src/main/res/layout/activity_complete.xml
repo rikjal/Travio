@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CompleteActivity"
+    android:background="@drawable/back_min"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        />
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/done"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#e3e3e3"
+        android:textAlignment="center"
+        android:text="Booking Confirmed!"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="#e3e3e3"
+        android:textAlignment="center"
+        android:text="We will contact you shortly. We assure you comfort and a safe trip with us"
+        android:layout_marginTop="5dp"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:textAlignment="center"
+            android:textColor="@color/orange"
+            android:text="Here is your details"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Take a screenshot of this page for future reference"
+            android:textAlignment="center"
+            android:textColor="#e3e3e3"
+            android:layout_marginTop="2dp"
+            android:textSize="10dp"
+            android:fontFamily="sans-serif-condensed"
+            />
+        <TextView
+            android:id="@+id/complete_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#e3e3e3"
+            android:layout_marginTop="10dp"
+            />
+        <Button
+            android:id="@+id/complete_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:textColor="#e3e3e3"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="Go Back to Home"
+            android:fontFamily="sans-serif-smallcaps"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

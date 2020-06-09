@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookingActivity"
+    android:background="@color/tours"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/audiowide"
+            android:text="Please fill in your details"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDarkk"
+            android:textSize="16sp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:id="@+id/tvselectplace"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Select Trip:"
+                android:textColor="#000"
+                android:layout_marginLeft="15dp"
+                android:textSize="12sp" />
+
+            <Spinner
+                android:id="@+id/spinnerplace"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:padding="4dp"
+                android:layout_marginRight="15dp"
+                android:layout_toRightOf="@+id/tvselectplace"
+                android:background="@drawable/inputs"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:id="@+id/tvselectcity"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Select Departure City:"
+                android:textColor="#000"
+                android:layout_marginLeft="15dp"
+                android:textSize="12sp" />
+
+            <Spinner
+                android:id="@+id/spinnercity"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:padding="4dp"
+                android:layout_marginRight="15dp"
+                android:layout_toRightOf="@+id/tvselectcity"
+                android:background="@drawable/inputs"/>
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/booking_room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="Enter the number of rooms required"
+            android:textColorHint="#fff"
+            android:textColor="#e3e3e3"
+            android:textSize="10dp"
+            android:inputType="number"
+            />
+        <EditText
+            android:id="@+id/booking_numbers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#e3e3e3"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="Enter the number of Adults, Childs, Senior Citizens, Infants (Separated by ',')"
+            android:textColorHint="#fff"
+            android:textSize="10dp"
+            android:inputType="text"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:text="Your contact details:"
+            android:textSize="14dp"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-condensed"
+            />
+        <EditText
+            android:id="@+id/booking_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:drawableLeft="@drawable/nick"
+            android:hint=" Enter your full name"
+            android:textColorHint="#555"
+            android:textSize="10dp"
+            android:textColor="#e3e3e3"
+            android:inputType="textCapSentences"
+            />
+        <EditText
+            android:id="@+id/booking_contactno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint=" Enter your contact number"
+            android:drawableLeft="@drawable/mobile"
+            android:textColorHint="#555"
+            android:textSize="10dp"
+            android:maxLength="10"
+            android:textColor="#e3e3e3"
+            android:inputType="number"
+            />
+        <EditText
+            android:id="@+id/booking_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:drawableLeft="@drawable/index"
+            android:layout_marginRight="15dp"
+            android:hint="Enter your Email address"
+            android:textColorHint="#555"
+            android:textSize="10dp"
+            android:textColor="#e3e3e3"
+            android:inputType="textEmailAddress"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:id="@+id/booking_date"
+                android:layout_width="250dp"
+                android:textColorHint="#000"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="12sp"
+                android:hint=" Select Date of Journey"
+                android:inputType="date"
+                android:padding="4dp"
+                android:drawableLeft="@drawable/calendar"
+                android:textColor="#e3e3e3"
+                android:layout_marginLeft="15dp"
+                />
+
+            <Button
+                android:id="@+id/booking_date_btn"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="15dp"
+                android:layout_toRightOf="@+id/booking_date"
+                android:background="@drawable/buttons"
+                android:fontFamily="@font/electrolize"
+                android:text="Select Date"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/booking_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:background="@drawable/buttons"
+            android:text="Confirm Booking"
+            android:textColor="#e3e3e3"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="14dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="25dp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+</ScrollView>

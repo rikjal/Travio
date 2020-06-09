@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@color/grey"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            layout="@layout/app_bar_layout"
+            android:id="@+id/main_page_toolbar"
+            />
+
+        <FrameLayout
+            android:id="@+id/main_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="55dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <android.support.v7.widget.CardView
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/card_view"
+                        android:layout_gravity="center"
+                        android:layout_width="350dp"
+                        android:layout_height="300dp"
+                        card_view:cardCornerRadius="15dp"
+                        android:layout_marginTop="15dp"
+                        card_view:cardBackgroundColor="#abc"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:src="@drawable/tamilnaru1"
+                            android:layout_marginTop="5dp"
+                            />
+                        <LinearLayout android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginTop="5dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/amita"
+                                android:text="Economy Tamil Nadu - Pondicherry and Tirupati"
+                                android:textAlignment="center"
+                                android:textAllCaps="false"
+                                android:textColor="@color/brown"
+                                android:textSize="16dp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="#555"
+                                android:layout_marginTop="5dp"
+                                android:textAlignment="textStart"
+                                android:textSize="12dp"
+                                android:text="5 Nights | 6 Days | Group Tour | Hotels, Flights, Sightseeing, Transfer and Meals"
+                                />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:text="Rs. 21599/- Only (Per Adult)"
+                                android:textAlignment="center"
+                                android:textColor="@color/orange"
+                                android:textSize="14dp" />
+
+                            <Button
+                                android:id="@+id/home_btn_tn"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/audiowide"
+                                android:text="See Details"
+                                android:textAllCaps="false"
+                                android:onClick="details"
+                                android:theme="@style/PrimaryFlatButton" />
+
+                        </LinearLayout>
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:layout_gravity="center"
+                        android:layout_width="350dp"
+                        android:layout_height="240dp"
+                        card_view:cardCornerRadius="15dp"
+                        android:layout_marginTop="15dp"
+                        card_view:cardBackgroundColor="#abc"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:src="@drawable/goa1"
+                                android:layout_marginTop="5dp"
+                                />
+                            <LinearLayout android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="5dp">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/amita"
+                                    android:text="Vibrant Goa - Evoke Lifestyle"
+                                    android:textAlignment="center"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/brown"
+                                    android:textSize="16dp"
+                                    android:textStyle="bold" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#555"
+                                    android:layout_marginTop="5dp"
+                                    android:textAlignment="textStart"
+                                    android:textSize="12dp"
+                                    android:text="3 Nights | 4 Days | Group Tour | Hotels, Flights and Meals"
+                                    />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Rs. 11299/- Only (Per Adult)"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/orange"
+                                    android:textSize="14dp" />
+
+                                <Button
+                                    android:id="@+id/home_btn_goa"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:fontFamily="@font/audiowide"
+                                    android:text="See Details"
+                                    android:textAllCaps="false"
+                                    android:onClick="details"
+                                    android:theme="@style/PrimaryFlatButton" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:layout_gravity="center"
+                        android:layout_width="350dp"
+                        android:layout_height="250dp"
+                        card_view:cardCornerRadius="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        card_view:cardBackgroundColor="#abc"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:src="@drawable/kerala1"
+                                android:layout_marginTop="5dp"
+                                />
+                            <LinearLayout android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_marginTop="5dp">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/amita"
+                                    android:text="Kerala - Hills and Backwaters"
+                                    android:textAlignment="center"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/brown"
+                                    android:textSize="16dp"
+                                    android:textStyle="bold" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#555"
+                                    android:layout_marginTop="5dp"
+                                    android:textAlignment="textStart"
+                                    android:textSize="12dp"
+                                    android:text="3 Nights | 4 Days | Group Tour | Hotels, Transfers, Sightseeing and Meals"
+                                    />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/orange"
+                                    android:layout_marginTop="5dp"
+                                    android:textAlignment="textStart"
+                                    android:textSize="14dp"
+                                    android:text="Rs. 13599/- Only (Per Adult)"
+                                    />
+
+                                <Button
+                                    android:id="@+id/home_btn_kerala"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:fontFamily="@font/audiowide"
+                                    android:text="See Details"
+                                    android:textAllCaps="false"
+                                    android:theme="@style/PrimaryFlatButton"
+                                    android:onClick="details"
+                                    />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+            </ScrollView>
+        </FrameLayout>
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_marginBottom="3dp"
+        app:menu="@menu/navigation_menu">
+
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>
